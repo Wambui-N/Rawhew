@@ -3,6 +3,11 @@
 @tailwind utilities;
 
 @font-face {
-    font-family: 'myFont';
-    src: url('/fonts/Foglihtenno07-e9wz3') format('opentype');
-  }
+  font-family: 'myFont';
+  src: url('/fonts/Foglihtenno07-e9wz3.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'myFontCalt';
+  src: url('/fonts/Foglihtenno07calt-WpzEA.otf') format('opentype');
+}
