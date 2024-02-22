@@ -1,3 +1,8 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+    font-family: 'myFont';
+    src: url('/fonts/Foglihtenno07-e9wz3') format('opentype');
+  }
