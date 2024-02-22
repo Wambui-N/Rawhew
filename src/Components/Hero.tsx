@@ -24,10 +24,11 @@ export const Hero = () => {
         </div>
       </Link>
       <Image
+        className="object-cover max-h-[60vh]"
         src="/HellsGate.png"
         alt="Hero Image"
-        height={2000}
-        width={2000}
+        height={3000}
+        width={3000}
         objectFit="cover"
       />
     </div>

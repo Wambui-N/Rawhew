@@ -11,3 +11,7 @@
   font-family: 'myFontCalt';
   src: url('/fonts/Foglihtenno07calt-WpzEA.otf') format('opentype');
 }
+
+.responsive {
+  @apply mx-[12vw] mt-[5vh];
+}
