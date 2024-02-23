@@ -60,11 +60,14 @@ export const Welcome = () => {
           Welcome to Rawhew Ranch
         </h3>
         <p className="pt-8 text-lg">
-          In the midst of these attractions and offerings, there is Rawhew
-          Ranch. A small intimate campsite bordering KWS Game Farm, a few meters
-          from off the Naivasha – Kinangop Road. We offer high-quality pitches
-          with a wide variety of facilities to enrich your camping experience.
-          Our location away from the urban jungle and the busy highway gives our
+          In the midst of these attractions and offerings, there is{" "}
+          <span style={{ fontFamily: "myFont" }} className="text-xl">
+            Rawhew Ranch
+          </span>
+          . A small intimate campsite bordering KWS Game Farm, a few meters from
+          off the Naivasha – Kinangop Road. We offer high-quality pitches with a
+          wide variety of facilities to enrich your camping experience. Our
+          location away from the urban jungle and the busy highway gives our
           camp an adventurous sense of solitude and freedom. Cosily hidden from
           the crowds, yet so close to everything that is important
         </p>

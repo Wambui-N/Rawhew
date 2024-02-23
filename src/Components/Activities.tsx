@@ -68,7 +68,7 @@ export const Activities = () => {
             Outdoor Excursions
           </h6>
           <p className="pt-4 text-lg">
-            While staying with us at Rawhew Ranch, there is a whole variety of
+            While staying with us at <span style={{fontFamily: 'myFont'}} className="text-xl">Rawhew Ranch</span>, there is a whole variety of
             exciting adventures at your disposal. Some are self-service – you
             can do it yourself However, we also provide transport and guides to
             any of these locations and activities that can make your stay
