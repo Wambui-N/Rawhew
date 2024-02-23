@@ -9,7 +9,7 @@ export const Welcome = () => {
           style={{ fontFamily: "myFont" }}
           className="Capitalize text-center text-4xl"
         >
-          Introducing Naivasha's Cozy Camp
+          Introducing Naivasha&apos;s Cozy Camp
         </h3>
         <p className="pt-8 text-lg">
           Naivasha is one of the most popular travel destinations in Kenya. It
@@ -19,7 +19,7 @@ export const Welcome = () => {
           largest freshwater lakes in Africa which hosts a rich birdlife and
           supports large-scale horticulture that makes Kenya a leading flower
           exporter in the world. Surrounding the lake are unique geographical
-          features such as Mt Longonot, Hell’s Gate National Park, and private
+          features such as Mt Longonot, Hell&apos;s Gate National Park, and private
           game sanctuaries, all attracting hundreds of outdoor enthusiasts every
           weekend. One cannot forget the numerous modern hotels, shopping malls,
           and restaurants catering to every taste, style, and budget. Naivasha
@@ -32,7 +32,7 @@ export const Welcome = () => {
             style={{ fontFamily: "myFont" }}
             className="capitalize text-4xl text-center"
           >
-            "The place <br /> to be"
+            &quot;The place <br /> to be&quot;
           </p>
           <Image
             src="/Cycling.png"
@@ -60,7 +60,7 @@ export const Welcome = () => {
           Welcome to Rawhew Ranch
         </h3>
         <p className="pt-8 text-lg">
-          In the midst of these attractions and offerings, there is{" "}
+          In the midst of these attractions and offerings, there is
           <span style={{ fontFamily: "myFont" }} className="text-xl">
             Rawhew Ranch
           </span>
