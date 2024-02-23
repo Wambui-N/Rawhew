@@ -12,8 +12,8 @@ export const Navbar = () => {
             className="lg:h-[12vh] h-[8vh] w-auto"
             src="/No Text Logo.png"
             alt="logo"
-            width={500}
-            height={500}
+            width={100}
+            height={100}
             priority
           />
         </Link>
