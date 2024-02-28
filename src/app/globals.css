@@ -15,3 +15,7 @@
 .responsive {
   @apply lg:mx-[12vw] sm:mx-[6vw] mx-[3vw] mt-[5vh];
 }
+
+.responsive_text{
+  @apply lg:text-lg text-sm;
+}
