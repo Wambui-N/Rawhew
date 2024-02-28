@@ -8,7 +8,7 @@ export const Hero = ({ title, img, alt }: HeroProps) => {
     <div className="my-[3vh] max-h-screen">
       <h1
         style={{ fontFamily: "myFontCalt" }}
-        className={`uppercase text-center lg:text-8xl md:text-7xl sm:text-6xl text-5xl py-10`}
+        className={`uppercase text-center lg:text-8xl md:text-7xl sm:text-6xl text-4xl py-10`}
       >
         {title}
       </h1>

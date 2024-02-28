@@ -7,7 +7,7 @@ export const Activities = () => {
     <div className="responsive">
       <h6
         style={{ fontFamily: "myFontCalt" }}
-        className="uppercase text-4xl text-center"
+        className="uppercase responsive_h text-center"
       >
         Activities
       </h6>
@@ -48,52 +48,59 @@ export const Activities = () => {
           img="/nyama choma.jpg"
           alt="Nyama Choma"
         />
-        <ActivityA 
-            title="Boat Riding"
-            text="Lake Naivasha is a wonderful recreation site for nature lovers and adventure seekers. It is a boating paradise for groups and families who love water sports. The lake hosts schools of hippos and numerous water birds such as cormorants and pelicans. Fish eagles and kingfishers are commonly sighted on the shoreline darting for fish in the waters. We arrange boating rides in Lake Naivasha from our camp. This can be combined with other excursions to give you full day programme"
-            img="/Boat Ridding.png"
-            alt="Boat Ridding"
+        <ActivityA
+          title="Boat Riding"
+          text="Lake Naivasha is a wonderful recreation site for nature lovers and adventure seekers. It is a boating paradise for groups and families who love water sports. The lake hosts schools of hippos and numerous water birds such as cormorants and pelicans. Fish eagles and kingfishers are commonly sighted on the shoreline darting for fish in the waters. We arrange boating rides in Lake Naivasha from our camp. This can be combined with other excursions to give you full day programme"
+          img="/Boat Ridding.png"
+          alt="Boat Ridding"
         />
-        <ActivityB 
-            title="Nyandarua Farm Visits"
-            text="Nyandarua County is renowned for food production. It is the hub of potatoes, carrots, minjis, and a variety of vegetables From our camp, you can visit nearby farms and meet the farmers in their “office.” Urban children enjoy the visits – many don't even know where their favourite chips and yoghurt come from. It’s a whole new experience when they visit a shamba. You have a chance to purchase farm produce directly from the farm which you carry in your bike or have it dropped at the camp. You can also buy other organic foods such as kienyeji chicken and eggs which you can also cook from the camp"
-            img="/Farm.png"
-            alt="Farm"
+        <ActivityB
+          title="Nyandarua Farm Visits"
+          text="Nyandarua County is renowned for food production. It is the hub of potatoes, carrots, minjis, and a variety of vegetables From our camp, you can visit nearby farms and meet the farmers in their “office.” Urban children enjoy the visits – many don't even know where their favourite chips and yoghurt come from. It’s a whole new experience when they visit a shamba. You have a chance to purchase farm produce directly from the farm which you carry in your bike or have it dropped at the camp. You can also buy other organic foods such as kienyeji chicken and eggs which you can also cook from the camp"
+          img="/Farm.png"
+          alt="Farm"
         />
         <div>
           <h6
             style={{ fontFamily: "myFontCalt" }}
-            className="uppercase text-xl text-center"
+            className="uppercase text-xl text-center md:py-6 py-4 responsive_h"
           >
             Outdoor Excursions
           </h6>
-          <p className="pt-4 text-lg">
-            While staying with us at <span style={{fontFamily: 'myFont'}} className="text-xl">Rawhew Ranch</span>, there is a whole variety of
-            exciting adventures at your disposal. Some are self-service – you
-            can do it yourself However, we also provide transport and guides to
-            any of these locations and activities that can make your stay
-            memorable Naivasha and Rift Valley geographical features offer great
-            sceneries for hiking expeditions by individuals and groups. Sample
-            these:
+          <p className="md:pt-4 responsive_text">
+            While staying with us at{" "}
+            <span
+              style={{ fontFamily: "myFont" }}
+              className="md:text-xl text-base"
+            >
+              {" "}
+              Rawhew Ranch
+            </span>
+            , there is a whole variety of exciting adventures at your disposal.
+            Some are self-service – you can do it yourself However, we also
+            provide transport and guides to any of these locations and
+            activities that can make your stay memorable Naivasha and Rift
+            Valley geographical features offer great sceneries for hiking
+            expeditions by individuals and groups. Sample these:
           </p>
         </div>
-        <ActivityA 
-            title="Longonot Hiking"
-            text="Longont is a dormant crater with a beautiful caldera at the top. Very ideal for an adventurous hike reaching to the top and enjoying a picnic as you savour the natural beauty of the caldera and distant vistas."
-            img="/longonot.jpg"
-            alt="Longonot"
+        <ActivityA
+          title="Longonot Hiking"
+          text="Longont is a dormant crater with a beautiful caldera at the top. Very ideal for an adventurous hike reaching to the top and enjoying a picnic as you savour the natural beauty of the caldera and distant vistas."
+          img="/longonot.jpg"
+          alt="Longonot"
         />
-        <ActivityB 
-            title="Eburu Forest"
-            text="Eburu Hills are the highest mountains on the floor of the Rift Valley. Situated to the West of Lake Naivasha, they host an indigenous forest that offers perfect atmosphere for nature walks and bird watch offering a panoramic view of Lake Naivasha and its surroundings"
-            img="/eburu.jpg"
-            alt="Eburu"
+        <ActivityB
+          title="Eburu Forest"
+          text="Eburu Hills are the highest mountains on the floor of the Rift Valley. Situated to the West of Lake Naivasha, they host an indigenous forest that offers perfect atmosphere for nature walks and bird watch offering a panoramic view of Lake Naivasha and its surroundings"
+          img="/eburu.jpg"
+          alt="Eburu"
         />
-        <ActivityA 
-            title="Hells Gate National Park"
-            text="Hells Gate has a host of rocky outcrops such as Fisher’s Tower that is popular with rock climbers. It also has a big gorge that attracts many hikers. Other attractions include wildlife and geothermal power wells and a natural spa. Hells Gate is one of the few parks in Kenya where visitors can walk or cycle through. Experience all this from our camp."
-            img="/hellsgate trail.jpg"
-            alt="Hells Gate"
+        <ActivityA
+          title="Hells Gate National Park"
+          text="Hells Gate has a host of rocky outcrops such as Fisher’s Tower that is popular with rock climbers. It also has a big gorge that attracts many hikers. Other attractions include wildlife and geothermal power wells and a natural spa. Hells Gate is one of the few parks in Kenya where visitors can walk or cycle through. Experience all this from our camp."
+          img="/hellsgate trail.jpg"
+          alt="Hells Gate"
         />
       </div>
     </div>

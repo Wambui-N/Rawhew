@@ -13,7 +13,7 @@
 }
 
 .responsive {
-  @apply lg:mx-[12vw] sm:mx-[6vw] mx-[3vw] mt-[5vh];
+  @apply lg:mx-[12vw] sm:mx-[8vw] mx-[5vw] mt-[5vh];
 }
 
 .responsive_h{
