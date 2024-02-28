@@ -7,7 +7,7 @@ export const Welcome = () => {
       <div>
         <h3
           style={{ fontFamily: "myFont" }}
-          className="Capitalize text-center lg:text-4xl md:text-3xl sm:text-2xl text-2xl"
+          className="Capitalize text-center responsive_h"
         >
           Introducing Naivasha&apos;s Cozy Camp
         </h3>
@@ -55,7 +55,7 @@ export const Welcome = () => {
       <div className="md:py-8 py-4">
         <h3
           style={{ fontFamily: "myFont" }}
-          className="Capitalize text-center lg:text-4xl md:text-3xl sm:text-2xl text-2xl"
+          className="Capitalize text-center responsive_h"
         >
           Welcome to Rawhew Ranch
         </h3>

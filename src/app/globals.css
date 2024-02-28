@@ -16,6 +16,10 @@
   @apply lg:mx-[12vw] sm:mx-[6vw] mx-[3vw] mt-[5vh];
 }
 
+.responsive_h{
+  @apply lg:text-4xl md:text-3xl sm:text-2xl text-2xl;
+}
+
 .responsive_text{
   @apply lg:text-lg text-sm;
 }
