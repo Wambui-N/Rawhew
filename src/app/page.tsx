@@ -1,5 +1,5 @@
 import React from "react";
-import { Hero, Welcome, Gallery, Amenities, Activities, Terms, Prices } from "@/Components";
+import { Hero, Welcome, Amenities, Activities, Terms, Prices } from "@/Components";
 
 export default function page() {
   return (
@@ -10,7 +10,6 @@ export default function page() {
         alt="Hells Gate"
       />
       <Welcome />
-      <Gallery />
       <Amenities />
       <Activities />
       <Prices />

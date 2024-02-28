@@ -11,31 +11,39 @@ export default function page() {
           img="/Restaurant.png"
           alt="Restaurant Image"
         />
-        <div className="responsive py-4">
-          <p className="text-lg">
-            At <span style={{fontFamily: 'myFont'}} className="text-xl">Rawhew Ranch</span> , you can enjoy delicious cuisine at our Restaurant
-            situated next to the campsite. Our main offering includes succulent
-            pork from our farm, goat meat, Kienyeji chicken, and fresh fish from
-            the lake. Our meats are charcoal grilled to your liking. Vegetables
-            are all sourced from our farm, guaranteeing you quality and
-            freshness to treasure.
+        <div className="responsive md:py-4 py-1">
+          <p className="responsive_text">
+            At{" "}
+            <span
+              style={{ fontFamily: "myFont" }}
+              className="md:text-xl text-base"
+            >
+              {" "}
+              Rawhew Ranch
+            </span>{" "}
+            , you can enjoy delicious cuisine at our Restaurant situated next to
+            the campsite. Our main offering includes succulent pork from our
+            farm, goat meat, Kienyeji chicken, and fresh fish from the lake. Our
+            meats are charcoal grilled to your liking. Vegetables are all
+            sourced from our farm, guaranteeing you quality and freshness to
+            treasure.
           </p>
           <div className="py-8">
             <h3
               style={{ fontFamily: "myFont" }}
-              className="capitalize text-center text-4xl pb-6"
+              className="capitalize text-center responsive_h md:pb-6 pb-2"
             >
               Our Menu
             </h3>
-            <div className="flex flex-row gap-8 py-4">
+            <div className="flex md:flex-row flex-col gap-8 py-4">
               <Image
                 src="/Choma.png"
                 alt="Menu"
                 width={500}
                 height={500}
-                className="object-cover h-[50vh] rounded-lg basis-2/5"
+                className="object-cover h-[50vh] w-full rounded-lg basis-2/5"
               />
-              <div className="h-max basis-3/5 self-center">
+              <div className="h-max basis-3/5 md:self-center">
                 <h3
                   style={{ fontFamily: "myFont" }}
                   className="uppercase text-start text-2xl pb-4"
@@ -62,8 +70,8 @@ export default function page() {
                 </div>
               </div>
             </div>
-            <div className="flex flex-row gap-8 py-4">
-              <div className="h-max basis-3/5 self-center">
+            <div className="flex md:flex-row flex-col-reverse gap-8 md:pb-6 pb-2">
+              <div className="h-max basis-3/5 md:self-center">
                 <h3
                   style={{ fontFamily: "myFont" }}
                   className="uppercase text-start text-2xl pb-4"

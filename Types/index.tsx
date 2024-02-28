@@ -10,3 +10,8 @@ export interface HeroProps {
     img: string;
     alt: string;
 }
+
+export interface PriceProps {
+    title: string;
+    descriptions: string[];
+}
