@@ -9,7 +9,7 @@ export const Terms = () => {
       >
         Terms and Conditions
       </h6>
-      <ul className="py-8 list-disc leading-10 responsive_text md:basis-1/2">
+      <ul className="py-8 list-disc list-inside leading-10 responsive_text md:basis-1/2">
         <li>
           All services such as tents, catering, goats etc must be reserved in
           advance

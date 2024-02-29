@@ -11,7 +11,7 @@ export const Amenities = () => {
         Our Amenities
       </h6>
       <div className="flex md:flex-row flex-col gap-4 md:items-center md:justify-between md:pt-10 pt-4">
-        <ul className="list-disc leading-10 responsive_text md:basis-1/2">
+        <ul className="list-disc list-inside leading-10 responsive_text md:basis-1/2">
           <li>Free, secure, and ample parking</li>
           <li>Clean and modern washrooms and showers</li>
           <li>Double & Single tents + mattresses for hire</li>
