@@ -60,7 +60,7 @@ export default function page() {
                     <li>Whole Tilapia Fish</li>
                   </ul>
                   <ul id="Prices" className="list-none leading-10">
-                    <li>Ksh 16,000</li>
+                    <li>Ksh 20,000</li>
                     <li>Ksh 4,000</li>
                     <li>Ksh 3,500</li>
                     <li>Ksh 1,200</li>
