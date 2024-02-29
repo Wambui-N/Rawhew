@@ -6,7 +6,7 @@ const PriceItem = ({ title, descriptions }: PriceProps) => {
     <div>
       <h6
           style={{ fontFamily: "myFontCalt" }}
-          className="Capitalize text-xl md:py-6 py-2"
+          className="Capitalize responsive_text md:py-6 py-2"
         >
           {title}
         </h6>
