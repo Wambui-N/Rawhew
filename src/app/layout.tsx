@@ -18,6 +18,13 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+        <title>Rawhew Ranch Kenya</title>
+        <meta
+          name="description"
+          content="A small intimate campsite bordering KWS Game Farm, a few meters from off the Naivasha – Kinangop Road. We offer high-quality pitches with a wide variety of facilities to enrich your camping experience. Our location away from the urban jungle and the busy highway gives our camp an adventurous sense of solitude and freedom."
+        ></meta>
+      </head>
       <body
         className={`${raleway.className} min-h-screen min-w-screen bg-white text-black`}
       >
