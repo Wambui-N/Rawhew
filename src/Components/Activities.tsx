@@ -57,7 +57,7 @@ export const Activities = () => {
         <ActivityB
           title="Nyandarua Farm Visits"
           text="Nyandarua County is renowned for food production. It is the hub of potatoes, carrots, minjis, and a variety of vegetables From our camp, you can visit nearby farms and meet the farmers in their “office.” Urban children enjoy the visits – many don't even know where their favourite chips and yoghurt come from. It’s a whole new experience when they visit a shamba. You have a chance to purchase farm produce directly from the farm which you carry in your bike or have it dropped at the camp. You can also buy other organic foods such as kienyeji chicken and eggs which you can also cook from the camp"
-          img="/Farm.png"
+          img="/farm.jpg"
           alt="Farm"
         />
         <div>
