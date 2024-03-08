@@ -2,6 +2,10 @@ import React from "react";
 import Image from "next/image";
 import { Hero } from "@/Components";
 
+export const metadata = {
+  title: "Menu"
+}
+
 export default function page() {
   return (
     <div>
