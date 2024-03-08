@@ -14,7 +14,7 @@ export const Hero = ({ title, img, alt }: HeroProps) => {
       </h1>
 
       <Image
-        className="object-cover md:max-h-[60vh] h-[80vh] w-full"
+        className="object-cover md:max-h-[60vh] h-[60vh] w-full"
         src={img}
         alt={alt}
         height={3000}
