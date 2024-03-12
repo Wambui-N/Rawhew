@@ -32,7 +32,7 @@ export const Footer = () => {
               </Link>
             </div>
             <div>
-              <Link href="/menu">
+              <Link href="/Menu">
                 <p className="text-white lg:text-base text-xs">Menu</p>
               </Link>
               <Link href="/">
