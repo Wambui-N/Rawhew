@@ -86,7 +86,7 @@ export const Footer = () => {
           </div>
           <div className="place-self-end">
             <p className="text-sm text-white/50 justify-self-end">
-              &copy; 2024 Rawhew Ranch Kenya
+              &copy; 2024 Rawhew Ranch Kenya. All Rights Reserved.
             </p>
           </div>
         </div>
