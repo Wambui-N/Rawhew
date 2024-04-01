@@ -15,7 +15,7 @@ export const Activities = () => {
         <ActivityA
           title="Camping"
           text="Camping is our main activity. We have secure, private, and spacious grounds for camping. You bring your own tent and accessories such as a sleeping tent and mattress. You can also hire from the camp. The camp offers a kitchen, so you bring your own food and prepare it your way and at your convenience. We provide food and a cook with prior arrangements and at an extra cost. There is enough water and clean washrooms and showers"
-          img="/Camping.png"
+          img="/Camping.jpeg"
           alt="Camping"
         />
         <ActivityB
