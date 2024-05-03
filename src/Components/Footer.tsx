@@ -23,7 +23,7 @@ export const Footer = () => {
               <p className="text-white lg:text-base text-xs">
                 rawhewranch@gmail.com
               </p>
-              <p className="text-white lg:text-base text-xs">0798902509</p>
+              <p className="text-white lg:text-base text-xs">+254742293741</p>
               <Link
                 className="text-white lg:text-base text-xs"
                 href="https://www.google.com/maps/place/Rawhew+ranch+and+grill/@-0.7216262,36.4625495,17z/data=!3m1!4b1!4m6!3m5!1s0x182919000c0998a9:0xc41b2829f4bc5b3b!8m2!3d-0.7216316!4d36.4651244!16s%2Fg%2F11y373p7k0?entry=ttu"
